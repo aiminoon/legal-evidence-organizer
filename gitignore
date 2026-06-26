@@ -1,0 +1,43 @@
+# ─── Evidence & pipeline output (NEVER commit) ───────────────
+# Real case material and generated reports must stay out of git.
+evidence_output/
+input/
+*.evidence/
+sample_evidence/
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ─── Virtual environments ────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── PaddleOCR / model caches ────────────────────────────────
+.paddleocr/
+.paddlex/
+*.pdparams
+*.pdmodel
+
+# ─── Generated artifacts ─────────────────────────────────────
+*.pdf
+*.html
+evidence_log.csv
+contact_sheet.png
+annotated_*.png
+before_after_*.png
+
+# ─── OS / editor cruft ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+.qodo
